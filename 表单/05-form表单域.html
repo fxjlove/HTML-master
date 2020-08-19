@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>select下拉列表</title>
+</head>
+<body>
+
+   <!--
+
+       form表单域:
+      通过form表单域把收集的用户信息传递给服务器
+      目的:在HTML中,form标签被用于定义表单域,以实现用户信息的收集和传递,form中的所有内容都会被提交给服务器
+
+
+
+      <form action="url地址" method="提交方式" name="表单名称">
+        各种表单控件
+      </form>
+     
+      action   url地址      用于置顶接收并处理表单数据的服务器程序的url地址
+      method   get/post    用于设置表单数据的提交方式,其取值为get或post
+      name     名称         用于置顶表单的名称,以区分同一个页面重的多个表单
+        
+
+    -->
+
+    <form action="demo.php" method="POST" name="submitForm">
+      用户名:<input type="text" name="username"/> <br />
+      密码:<input type="password" name="pwd"/> <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+<hr />
+    <form action="demo.php" method="POST" name="searchForm">
+      用户名2:<input type="text" name="username"/> <br />
+      密码2:<input type="password" name="pwd"/> <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+
+   
+  
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>表格标题caption</title>
+</head>
+<body>
+  <!-- 
+    1.
+    <table> table用于定义一个表格标签    
+    <tr>tr标签用于定义表格重的行,必须嵌套在table标签中
+      <td>单元格内的文字</td> td用于定义表格中的单元格,必须嵌套在<tr></tr>标签中
+      ...
+    </tr>
+    ...
+  </table> 
+
+
+  table   最外层的大盒子
+  tr      代表一行
+  td      代表一个单元格
+
+
+  2.表格属性:
+
+  border        设置表格的边框(默认border="0"无边框)
+
+  cellspacing   设置单元格与单元格边框之间的空白间距  默认2像素
+
+  cellpadding   设置单元格内容与单元格边框之间的空白间距  默认1像素
+
+  width         设置表格的宽度
+
+  height        设置表格的高度
+
+  align          设置表格在网页中的水平对其方式  left  center  right
+
+
+
+  我们经常有个说法,是三参为0,平时开发的我们这三个参数border cellspacing cellpadding为0
+
+
+
+3.表头单元格标签th
+一般表头单元格位于表格的第一行或第一列,并且文本加粗剧中
+只需用表格标签<th></th>替代相应的单元格标签<td></td>
+
+
+
+4.表格标题caption
+
+<table>
+  <caption>我是表格标题</caption/>
+</table>
+
+caption元素定义表格标题,通常这个白噢题会被居中且显示于表格之上
+caption标签必须紧随table标签之后
+这个标签只存在表格里才有意义
+
+
+-->
+  
+  <table border="1" width="400" height="200" align="center" cellspacing="0" cellpadding="20">
+    <caption>个人信息表</caption>
+    <tr>
+      <th>姓名</th> 
+      <th>年龄</th> 
+      <th>性别</th>
+    </tr>
+    <tr>
+      <th>小明</th> 
+      <td>11</td> 
+      <td>男</td> 
+    </tr>
+    <tr>
+      <th>小红</th> 
+      <td>22</td> 
+      <td>女</td>
+    </tr>
+    
+
+  </table>
+
+  
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>路径</title>
+</head>
+<body>
+    <h4>相对路径</h4>
+    <!-- 同一级路径,图片引用的时候,直接写图片的名字就行了 <img src="ilogin_bg_bst.png"/> -->
+    <img src="login_bg_bst.png" width="200"/> 
+
+
+     <!-- 下一级路径/  <img src="img/login_bg_bst.png"/> -->
+     <img src="img/login_bg_bst.png" width="200"/> 
+
+     <!-- 上一级路径../ 在文件名之前加入“”../ ,如果是上两级,则需要使用“../../” 以此类推   <img src="../login_bg_bst.png"/> -->
+
+
+     <h4>绝对路径:不提倡使用</h4>
+     <!-- 不提倡使用 -->
+     <img src="/Users/fanxiaojuan/Desktop/H5/learn/HTML/img/login_bg_bst.png" width="200"/> 
+     
+     
+     <h4>绝对的网络地址:还是可以用的</h4>
+     <img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg" /> 
+     
+</body>
+</html>

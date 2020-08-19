@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>input控件</title>
+</head>
+<body>
+
+  <!-- 
+
+     在HTML中,一个玩真的表单通常由表单控件(也称表单元素)、提示信息和表单域 3个部分组成
+     
+     <input type="属性值" value="你好" />
+      input  输入的意思
+      <input/> 标签为单标签
+      type属性设置不同的属性值用来置顶不同的控件类型
+
+     type:
+      text            单行文本输入框
+      password        密码输入框
+      radio           单选按钮
+      checkbox        复选框
+      button          普通按钮
+      submit          提交按钮
+      reset           重置按钮
+      image           图像形式的条按钮
+      file            文件域
+
+      name        由用户自定义   控件的名称
+      value       由用户自定义   input控件中的默认文本值
+      size        正整数        input空间在页面中的显示宽度
+      checked     checked      定义选择控件默认被选中的项
+      maxlength   正整数        控件允许输入的最多字符数
+
+   -->
+
+
+   <!-- <input type="属性值" value="你好" /> -->
+
+   用户名: <input type="text"  value="请输入用户名" name="username"/> <br />
+   昵称: <input type="text"  value="请输入昵称" name="nicheng"/> <br />
+   密码: <input type="password" name="pwd"/> <br />
+   手机号: <input type="text"  value="请输入手机号码"/><br />
+   性别: 
+      男<input type="radio" name="sex" />  
+      女<input type="radio" name="sex" checked="checked"/> 
+      未知<input type="radio" name="sex" />  <br />
+
+
+   爱好:
+      睡觉<input type="checkbox" name="hobby" />
+      打篮球<input type="checkbox" name="hobby" checked="checked"/>
+      爬山<input type="checkbox" name="hobby"/>
+      攀登<input type="checkbox" name="hobby"/> <br />
+
+
+      <!-- 普通按钮需要写 value值 -->
+    <input type="button" value="获取短信验证啊吗"/> 
+
+    <!-- submit可以不写value值 -->
+    <input type="submit" value="提交所填"/> 
+    <input type="reset" value="重置所填"/> 
+
+    <!-- 图片提交按钮,里面必须包含src属性 -->
+    <input type="image" src="../login_bg_bst.png" /><br />
+
+    
+    <!-- 文件域 上传文件用的 -->
+    上传头像: <input type="file" />
+    
+
+   
+  
+</body>
+</html>

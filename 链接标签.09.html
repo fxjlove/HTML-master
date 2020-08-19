@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>链接标签</title>
+</head>
+<body>
+    <!--
+       链接标签a
+ href  用于制定链接目标的url地址,(必须属性)当为标签应用hred属性时,它就具有了超链接的功能
+ target 用于置顶链接页面的打开方式,其取值有self和blank两种,其中self为默认值,blank为在新窗口中打开方式
+
+ 不仅可以创建文本超链接,在网页中各种网页元素,如图像、表格、音频、视频等都可以添加超链接
+-->
+    <h4>外部链接:</h4>
+    <a href="https://www.baidu.com">百度一下</a>
+    
+    <h4>内部链接:</h4>
+    <a href="图像标签.08.html">百事通</a>
+
+    <!-- 如果当时没有确定链接目标时,通常将链接 标签的href属性值定义为“#”(即href="#"),表示该链接暂时为一个空连接 -->
+    <h4>空链接#:</h4>
+    <a href="#">全连接</a>
+
+    <h4>图像链接:</h4>
+    <img src="img/login_bg_bst.png" width ="100" /> 
+    <a href="https://www.baidu.com"> <img src="img/login_bg_bst.png" width ="100" /> </a>
+
+
+    <hr />
+    <!-- blank为在新窗口中打开方式? -->
+    <a href="https://www.baidu.com" target="_black">百度一下</a>
+
+    <a href="https://www.baidu.com" target="_black"> <img src="img/login_bg_bst.png" width ="100" /> </a>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>表格属性</title>
+</head>
+<body>
+  <!-- 
+    
+    <table> table用于定义一个表格标签    
+    <tr>tr标签用于定义表格重的行,必须嵌套在table标签中
+      <td>单元格内的文字</td> td用于定义表格中的单元格,必须嵌套在<tr></tr>标签中
+      ...
+    </tr>
+    ...
+  </table> 
+
+
+  table   最外层的大盒子
+  tr      代表一行
+  td      代表一个单元格
+
+
+  表格属性:
+
+  border        设置表格的边框(默认border="0"无边框)
+
+  cellspacing   设置单元格与单元格边框之间的空白间距  默认2像素
+
+  cellpadding   设置单元格内容与单元格边框之间的空白间距  默认1像素
+
+  width         设置表格的宽度
+
+  height        设置表格的高度
+
+  align          设置表格在网页中的水平对其方式  left  center  right
+
+
+
+  我们经常有个说法,是三参为0,平时开发的我们这三个参数border cellspacing cellpadding为0
+
+-->
+
+  <table border="1" width="400" height="200" align="center" cellspacing="0" cellpadding="20">
+    <tr>
+      <td>姓名</td> 
+      <td>年龄</td> 
+      <td>性别</td>
+    </tr>
+    <tr>
+      <td>小明</td> 
+      <td>11</td> 
+      <td>男</td>
+    </tr>
+    <tr>
+      <td>小红</td> 
+      <td>22</td> 
+      <td>女</td>
+    </tr>
+    
+
+  </table>
+
+  
+</body>
+</html>
